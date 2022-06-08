@@ -28,7 +28,7 @@ object AppConstant {
             id = 2,
             userName = "Nature",
             text = "Google",
-            imageId = "https://picsum.photos/200/300?grayscale",
+            imageId = "https://www.gstatic.com/webp/gallery/1.jpg",
             time = "11m"
         ),
         Profile(
