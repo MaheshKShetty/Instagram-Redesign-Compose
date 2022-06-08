@@ -14,6 +14,10 @@ val fonts = FontFamily(
     Font(R.font.heading, weight = FontWeight.Bold)
 )
 
+val textFonts = FontFamily(
+    Font(R.font.roboto_condensed_regular, weight = FontWeight.Bold)
+)
+
 val Typography = Typography(
     body1 = TextStyle(fontFamily = FontFamily.Default,
           fontWeight = FontWeight.Normal,
@@ -33,5 +37,10 @@ val Typography = Typography(
         fontWeight = FontWeight.Bold,
         fontSize = 24.sp
     ),
+    h2 = TextStyle(
+        fontSize = 16.sp,
+        fontFamily = textFonts,
+        fontWeight = FontWeight.Normal,
+    )
 
 )
